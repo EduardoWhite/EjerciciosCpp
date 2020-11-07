@@ -147,13 +147,13 @@ int main(){
 
 ## Corrida en Qemu
 <img src="https://raw.githubusercontent.com/EduardoWhite/EjerciciosCpp/master/c4.PNG"/>
-### Programa 3
+### Programa 4
 /*
  Numero de problema: 21.<br/>
  Github: https://github.com/EduardoWhite<br/>
  Creador: Blanco Melendez Manuel Eduardo<br/>
  Fecha creacion: 18 de Octubre del 2020<br/>
- Descripcion breve: Calcular la suma de la multiplicacion de todos los numeros pares ingresados<br/>
+ Descripcion breve: Calcular la potencia cuadrada de los numeros ingresados<br/>
 */
 
 #include <iostream>
@@ -161,24 +161,57 @@ int main(){
 using namespace std;
 
 int main(){
-	int num = 0;
-	int ope = 0;
+	
 	int array[3];
-	int res = 1;
+	int num = 0;
 	for(int i = 0; i < 3; i++){
 		cout<<"Ingrese numero "<<(i + 1)<<endl;
 		cin>>num;
 		array[i] = num;
 	}
+	cout<<"Numero a la potencia n  "<<"Numero a la potencia n2"<<endl;
+	
 	for(int i = 0; i < 3; i++){
-		ope = array[i] % 2;
-		if(ope == 0){
-			res *= array[i];
-		}
+		
+		cout<<"             "<<array[i]<<"                "<<array[i]*array[i]<<endl;
 	}
-	cout<<"La multiplicación de los numeros pares es: "<<res;
+	
 	return 0;
 }
 
 ## Corrida en Qemu
-<img src="https://raw.githubusercontent.com/EduardoWhite/EjerciciosCpp/master/c4.PNG"/>
+<img src="https://raw.githubusercontent.com/EduardoWhite/EjerciciosCpp/master/c5.PNG"/>
+### Programa 5
+/*
+ Numero de problema: 21.<br/>
+ Github: https://github.com/EduardoWhite<br/>
+ Creador: Blanco Melendez Manuel Eduardo<br/>
+ Fecha creacion: 18 de Octubre del 2020<br/>
+ Descripcion breve: Calcular la cantidad de pesos ingresados en dolar<br/>
+*/
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+	
+	int array[3];
+	int num = 0;
+	for(int i = 0; i < 3; i++){
+		cout<<"Ingrese numero "<<(i + 1)<<endl;
+		cin>>num;
+		array[i] = num;
+	}
+	cout<<"Numero a la potencia n  "<<"Numero a la potencia n2"<<endl;
+	
+	for(int i = 0; i < 3; i++){
+		
+		cout<<"             "<<array[i]<<"                "<<array[i]*array[i]<<endl;
+	}
+	
+	return 0;
+}
+
+## Corrida en Qemu
+<img src="https://raw.githubusercontent.com/EduardoWhite/EjerciciosCpp/master/c6.PNG"/>
