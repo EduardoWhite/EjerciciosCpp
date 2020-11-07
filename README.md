@@ -1,5 +1,5 @@
-## Antes de iniciar con las corridas de mis progrmas de cpp en qemu voy a anexar mi conclusion.
-En un principio se me dificulto un poco el emular qemu debido que mi computadora tenia un disco de 130 y ya lo tenia saturado asi que compre un disco de maas capacidad esta semana y pude compilar qemu, en un principio se me hizo dificil ya que no sabia por donde empezar pero una vez entras a la terminar y sepas que comandos usar todo se vuelve muy sencillo y mas por que mis programas de cpp ya los tenia hechos desde hace un par de semanas entocnes lo unico que debia hacer era emular mi qemu y compilar desde la terminar.
+## Antes de iniciar con las corridas de mis programas de cpp en qemu voy a anexar mi conclusion.
+En un principio se me dificulto un poco el emular qemu debido que mi computadora tenia un disco de 130 y ya lo tenia saturado asi que compre un disco de mas capacidad esta semana y pude compilar qemu, en un principio se me hizo dificil ya que no sabia por donde empezar pero una vez entras a la terminar y sepas que comandos usar todo se vuelve muy sencillo y mas por que mis programas de cpp ya los tenia hechos desde hace un par de semanas entocnes lo unico que debia hacer era emular mi qemu y compilar desde la terminar.
 Los comandos que utilice fueron los siguientes:
 * git clone https://github.com/EduardoWhite/EjerciciosCpp -- CLONAR RESPOSITORIO
 * sud apt-get install gcc -- INSTALAR PAQUETE PARA COMPILAR CPP EN QEMU
