@@ -18,7 +18,7 @@ Los comandos que utilice fueron los siguientes:
  Descripcion breve: Determinar el jugador de futbol mas popular<br/>
  con respecto a unos votos realizados<br/>
  */
-
+```
 #include <iostream>
 #include <string>
 using namespace std;
@@ -79,6 +79,7 @@ int main() {
 	}
     return 0;
 }
+```
 
 ## Configuracion de Qemu
 Configuracion y clonacion de mis archivos de git en qemu para poder utilizar la terminal y pueda correr los programas
@@ -93,7 +94,7 @@ Configuracion y clonacion de mis archivos de git en qemu para poder utilizar la 
  Fecha creacion: 18 de Octubre del 2020<br/>
  Descripcion breve: Deterinar si la suma de dos numeros es positivo, negativo o cero<br/>
 */
-
+```
 #include <iostream>
 #include <string>
 using namespace std;
@@ -117,7 +118,7 @@ int main(){
 	}	
 	return 0;
 }
-
+```
 ## Corrida en Qemu
 <img src="https://raw.githubusercontent.com/EduardoWhite/EjerciciosCpp/master/c3.PNG"/>
 ### Programa 3
@@ -128,7 +129,7 @@ int main(){
  Fecha creacion: 18 de Octubre del 2020<br/>
  Descripcion breve: Calcular la suma de la multiplicacion de todos los numeros pares ingresados<br/>
 */
-
+```
 #include <iostream>
 #include <string>
 using namespace std;
@@ -152,7 +153,7 @@ int main(){
 	cout<<"La multiplicación de los numeros pares es: "<<res;
 	return 0;
 }
-
+```
 ## Corrida en Qemu
 <img src="https://raw.githubusercontent.com/EduardoWhite/EjerciciosCpp/master/c4.PNG"/>
 ### Programa 4
@@ -163,7 +164,7 @@ int main(){
  Fecha creacion: 18 de Octubre del 2020<br/>
  Descripcion breve: Calcular la potencia cuadrada de los numeros ingresados<br/>
 */
-
+```
 #include <iostream>
 #include <string>
 using namespace std;
@@ -186,7 +187,7 @@ int main(){
 	
 	return 0;
 }
-
+```
 ## Corrida en Qemu
 <img src="https://raw.githubusercontent.com/EduardoWhite/EjerciciosCpp/master/c5.PNG"/>
 ### Programa 5
@@ -197,7 +198,7 @@ int main(){
  Fecha creacion: 18 de Octubre del 2020<br/>
  Descripcion breve: Calcular la cantidad de pesos ingresados en dolar<br/>
 */
-
+```
 #include <iostream>
 #include <string>
 using namespace std;
@@ -220,6 +221,6 @@ int main(){
 	
 	return 0;
 }
-
+```
 ## Corrida en Qemu
 <img src="https://raw.githubusercontent.com/EduardoWhite/EjerciciosCpp/master/c6.PNG"/>
